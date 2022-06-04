@@ -30,12 +30,13 @@ All mapping results for the EuRoC datasets is available in [here](https://github
 ## Installation
 ### 1. Prerequisites
 -  Ubuntu 20.04
-- [ROS melodic](http://wiki.ros.org/ROS/Installation)
+- [ROS noetic](http://wiki.ros.org/ROS/Installation)
 - OpenCV 4
 - [Ceres Solver](http://ceres-solver.org/)
 
 ### 2. Build
 ```
+build ELSED ...
 cd ~/<your_workspace>/src
 git clone https://github.com/quachconghoang/UV-SLAM.git
 cd ..
@@ -79,10 +80,6 @@ If you use the algorithm in an academic context, please cite the following publi
   year={2021}
 }
 ```
-
-## Acknowledgements
-We use [VINS-Mono](https://github.com/HKUST-Aerial-Robotics/VINS-Mono) as our baseline code. Thanks Dr. Qin Tong, Prof. Shen etc very much. For line feature extraction, we use [ELSED](https://github.com/iago-suarez/ELSED). For vanishing point extraction, we use [J-linkage](http://www.diegm.uniud.it/fusiello/demo/jlk/) and [2-line exhaustive searching method](https://github.com/xiaohulugo/VanishingPointDetection).
-This work was financially supported in part by Institute of Information & communications Technology Planning & Evaluation (IITP) grant funded by the Korea government(MSIT) (No. 2021-0-00230, development of real·virtual environmental analysis based adaptive interaction technology) and in part by the Defense Challengeable Future Technology Program of Agency for Defense Development, Republic of Korea. The students are supported by Korea Ministry of Land, Infrastructure and Transport (MOLIT) as "Innovative Talent Education Program for Smart City" and BK21 FOUR.
 
 ## Licence
 The source code is released under [GPLv3](http://www.gnu.org/licenses/) license.
